@@ -1,0 +1,2 @@
+# rpmsample
+Sample RPM package.
