@@ -2,4 +2,7 @@ rpm/BUILD/
 rpm/RPMS/
 rpm/SOURCES/
 rpm/SRPMS/
-
+testprogram/
+testprogram-1.0/
+testdependency/
+testdependency-1.0/
