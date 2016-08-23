@@ -19,4 +19,5 @@ mkdir -p testdependency-1.0/etc/testdependency
 install -m 755 testdependency/testdependency testdependency-1.0/usr/bin/
 install -m 644 testdependency/testdependency.conf testdependency-1.0/etc/testdependency/
 
-
+# Create the source tar.gz for the RPM.
+tar -zcvf rpm/SOURCES/testdependency-1.0.tar.gz testdependency-1.0/
