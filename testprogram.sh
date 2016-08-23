@@ -1,7 +1,6 @@
 #!/bin/bash
 
-cd ~/rpmsample/
-mkdir testprogram
+mkdir -p testprogram
 
 # Create the "executable".
 echo '#!/bin/bash' > testprogram/testprogram
@@ -12,7 +11,7 @@ chmod +x testprogram/testprogram
 echo '# testprogram.conf' > testprogram/testprogram.conf
 
 # Create the final folder structure.
-mkdir testprogram-1.0
+mkdir -p testprogram-1.0
 mkdir -p testprogram-1.0/usr/bin
 mkdir -p testprogram-1.0/etc/testprogram
 

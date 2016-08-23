@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd ~/rpmsample/
-mkdir testdependency
+mkdir -p testdependency
 
 # Create the "executable".
 echo '#!/bin/bash' > testdependency/testdependency
@@ -12,7 +12,7 @@ chmod +x testdependency/testdependency
 echo '# Testdependency.conf' > testdependency/testdependency.conf
 
 # Create the final folder structure.
-mkdir testdependency-1.0
+mkdir -p testdependency-1.0
 mkdir -p testdependency-1.0/usr/bin
 mkdir -p testdependency-1.0/etc/testdependency
 

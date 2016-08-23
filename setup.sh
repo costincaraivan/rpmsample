@@ -1,13 +1,13 @@
 #!/bin/bash
 
-mkdir -p ~/rpmbuild/{RPMS,SRPMS,BUILD,SOURCES,SPECS,tmp}
+mkdir -p ~/rpmsample/rpm/{RPMS,SRPMS,BUILD,SOURCES,SPECS,tmp}
 
 cat <<EOF >~/.rpmmacros
-%_topdir   %(echo $HOME)/rpmbuild/rpm
+%_topdir   %(echo $HOME)/rpmsample/rpm
 %_tmppath  %{_topdir}/tmp
 EOF
 
-cd ~/rpmbuild
+cd ~/rpmsample
 
 ./testdependency.sh
 ./testprogram.sh
