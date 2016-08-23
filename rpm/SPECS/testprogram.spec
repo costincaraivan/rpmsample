@@ -16,6 +16,8 @@ URL: http://blog.oblio360.com/
 
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 
+Requires: testdependency
+
 %description
 %{summary}
 
