@@ -6,6 +6,7 @@ mkdir testdependency
 # Create the "executable".
 echo '#!/bin/bash' > testdependency/testdependency
 echo 'echo "Hello from testdependency"' >> testdependency/testdependency
+chmod +x testdependency/testdependency
 
 # Create the "configuration" file for the executable.
 echo '# Testdependency.conf' > testdependency/testdependency.conf
